@@ -15,6 +15,7 @@ connectDB()
       }
       console.log("Server Started at port:", ENV_VAR.PORT);
     });
+    
   })
   .catch((err) => {
     console.log("Error while connecting with database");
